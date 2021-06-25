@@ -15,7 +15,6 @@ if (typeof(SiebelApp.S_App.SearchPromotionOUI) === "undefined") {
         sHtml += '</div>';
 		$(".siebui-epui-detail-applet").prepend(sHtml);
 		$('#filter').before("Search keyword or part of (don't use *):");
-		$('#filter').after("Search will only be for 0-100 items on this page.Use next/previous for other pages.");
 		$('#SearchProm').css('font-weight','bold');
 		}
 		$('#filter').keyup(function(){
